@@ -1,12 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
+import { GluestackUIProvider } from "@/components/ui/gluestack-ui-provider";
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>hello workd</Text>
-      <StatusBar style="auto" />
-    </View>
+    <GluestackUIProvider><View style={styles.container}>
+        <Text>hello workd</Text>
+        <StatusBar style="auto" />
+      </View></GluestackUIProvider>
   );
 }
 

@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const HomeSCreen = () => {
+const CartScreen = () => {
   return (
     <View>
-      <Text>HomeSCreen</Text>
+      <Text>CartScreen</Text>
     </View>
   )
 } 
 
-export default HomeSCreen
+export default CartScreen
